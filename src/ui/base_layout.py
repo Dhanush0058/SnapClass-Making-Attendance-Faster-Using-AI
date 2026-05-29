@@ -47,7 +47,7 @@ def style_base_layout():
                 font-size: 3.5rem !important;
                 line-height: 1.2 !important;
                 margin-bottom: 0rem !important;
-                }
+            }
 
             h2{
                 font-family :'Climate Crisis' , sans-serif !important;
@@ -55,13 +55,20 @@ def style_base_layout():
                 line-height: 0.9 !important;
                 margin-bottom: 0rem !important;
                 color : black !important;
-                }
+            }
 
             h3 , h4 , p{
                 font-family:"Outfit" , sans-serif !important;
                 
-                }
-
+            }
+            label, [data-testid="stWidgetLabel"] p {
+                color: #111111 !important;
+            }           
+            div[data-testid="stTextInput"] input {
+                background-color: #FFFFFF !important;
+                color: #111111 !important;
+            }           
+            
             button{
                 border-radius : 1.5rem !important;
                 background-color: #7C8FFF !important;
