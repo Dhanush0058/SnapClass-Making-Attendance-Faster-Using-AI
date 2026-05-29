@@ -26,10 +26,10 @@ def style_background_dashboard():
 """ ,unsafe_allow_html= True)
     
 def style_base_layout():
+
     st.markdown("""
-        <style>
                 
-            
+        <style>
             @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&family=Outfit:wght@100..900&display=swap');
 
@@ -55,8 +55,8 @@ def style_base_layout():
                 font-size: 2rem !important;
                 line-height: 0.9 !important;
                 margin-bottom: 0rem !important;
-                color: black  !important;
-                }
+                color: black;
+            }
 
             h3 , h4 , p{
                 font-family:"Outfit" , sans-serif !important;
