@@ -47,7 +47,6 @@ def style_base_layout():
                 font-size: 3.5rem !important;
                 line-height: 1.2 !important;
                 margin-bottom: 0rem !important;
-                color : #E0E3FF !important;
                 }
 
             h2{
