@@ -64,10 +64,7 @@ def style_base_layout():
             label, [data-testid="stWidgetLabel"] p {
                 color: #111111 !important;
             }           
-            div[data-testid="stTextInput"] input {
-                background-color: #FFFFFF !important;
-                color: #111111 !important;
-            }           
+                      
             
             button{
                 border-radius : 1.5rem !important;
