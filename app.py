@@ -6,7 +6,7 @@ from src.components.dialog_auto_enroll import auto_enroll_dialog
 def main():
 
     st.set_page_config(
-        page_title="SnapClass - Making Attendance Faster Using AI"
+        page_title="SnapClass - Making Attendance Faster Using AI",
         page_icon = "https://i.ibb.co/YTYGn5qV/logo.png"
     )
     if 'Login_Type' not in st.session_state:
@@ -27,5 +27,6 @@ def main():
             st.rerun()
         if st.session_state.get("is_logged_in") and st.session_state.get('user_role') == 'student':
             auto_enroll_dialog(join_code)
+
 
 main()
