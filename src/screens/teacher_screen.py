@@ -187,7 +187,7 @@ def teacher_tab_manage_subjects():
         for sub in subjects:
             stats = {
                 ("👥","Students" ,sub['total_students']),
-                ('👥' ,'Classes' , sub['total_classes']),
+                ('🏛️' ,'Classes' , sub['total_classes']),
 
             }
         def share_btn():
