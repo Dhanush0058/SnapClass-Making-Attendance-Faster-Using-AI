@@ -57,6 +57,9 @@ def style_base_layout():
                 margin-bottom: 0rem !important;
                 color : black !important;
             }
+            h2.snapclass-title {
+                color: #5865F2 !important;
+            }
 
             h3, h3 * {
                 font-family:"Outfit" , sans-serif !important;
