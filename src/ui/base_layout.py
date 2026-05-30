@@ -58,9 +58,13 @@ def style_base_layout():
                 color : black !important;
             }
 
-            h3 , h4 , p{
+            h3, h3 * {
                 font-family:"Outfit" , sans-serif !important;
+                color: black !important;
+            }
                 
+            h4, p {
+                font-family:"Outfit" , sans-serif !important;
             }
             label, [data-testid="stWidgetLabel"] p {
                 color: #111111 !important;
