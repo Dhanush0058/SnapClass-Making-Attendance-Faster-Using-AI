@@ -168,7 +168,7 @@ def teacher_tab_take_attendance():
 
                 attendance_dialog_box(pd.DataFrame(results),attendance_to_log)
     with c3:   
-        if st.button("Use voice Attendance",type = 'primary', icon =":material/mic:"):
+        if st.button("Use voice Attendance",width = 'stretch',type = 'primary', icon =":material/mic:"):
             voice_attendance_dialog(selected_subject_id)
 
 
