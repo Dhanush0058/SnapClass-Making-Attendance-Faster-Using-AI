@@ -38,30 +38,29 @@ def style_base_layout():
           
             #MainMenu , footer , header{
                 visibility: hidden
-            }
+                }
 
             .block-container{
                 padding-top: 0.1rem !important;
-            }
-            h1, h1 * {
+                }
+            h1{
                 font-family :'Climate Crisis' , sans-serif !important;
                 font-size: 3.5rem !important;
                 line-height: 1.2 !important;
                 margin-bottom: 0rem !important;
-                color: #888888 !important; /* Change to light gray */
             }
 
-            h2, h2 * {
+            h2{
                 font-family :'Climate Crisis' , sans-serif !important;
                 font-size: 2rem !important;
                 line-height: 0.9 !important;
                 margin-bottom: 0rem !important;
-                color: #888888 !important; /* Change to light gray */
+                color : black !important;
             }
 
-            h3 , h4 , p, h3 *, h4 *, p * {
+            h3 , h4 , p{
                 font-family:"Outfit" , sans-serif !important;
-                color: #888888 !important; /* Change to light gray */
+                
             }
             label, [data-testid="stWidgetLabel"] p {
                 color: #111111 !important;
@@ -75,7 +74,7 @@ def style_base_layout():
                 padding: 10px 20px !important;
                 border: none !important;
                 transition: transform 0.25s ease-in-out !important;
-            }
+                }
 
             button[kind = "secondary"]{
                 border-radius : 1.5rem !important;
@@ -84,7 +83,7 @@ def style_base_layout():
                 padding: 10px 20px !important;
                 border: none !important;
                 transition: transform 0.25s ease-in-out !important;
-            }
+                }
             button[kind = "tertiary"]{
                 border-radius : 1.5rem !important;
                 background-color: black !important;
@@ -92,11 +91,11 @@ def style_base_layout():
                 padding: 10px 20px !important;
                 border: none !important;
                 transition: transform 0.25s ease-in-out !important;
-            }
+                }
             button:hover{
                 transform: scale(1.05) !important;
-            }
+                }
         </style>
                 
 
-        """ ,unsafe_allow_html= True)
+""" ,unsafe_allow_html= True)
