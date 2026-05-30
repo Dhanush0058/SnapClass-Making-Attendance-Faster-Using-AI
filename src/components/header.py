@@ -19,9 +19,7 @@ def header_dashboard():
         f"""
         <div style="display:flex;align-items:center;justify-content:center;gap:10px;">
             <img src='{logo_url}' style='height:85px'/>
-            <div style='font-family: "Climate Crisis", sans-serif !important; font-size: 2rem; line-height: 0.9; text-align:left; color:#5865F2 !important; font-weight: bold;'>
-                SNAP<br/>CLASS
-            </div>
+            <h2 class="snapclass-title" style="text-align:left;">SNAP<br/>CLASS</h2>
         </div>
         """,unsafe_allow_html=True,
     )
